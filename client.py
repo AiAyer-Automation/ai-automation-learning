@@ -1,10 +1,10 @@
 import requests
 
 data = {
-    "name": "Alice"
+    "id": 3
 }
 
-response = requests.post("http://127.0.0.1:5000/api/hello",json=data)
 
+response = requests.post("http://127.0.0.1:5000/tasks/delete",json=data)
+    
 print("raw response:" )
-print(response.text)

@@ -1,1 +1,10 @@
-["learning", "python"]
+[
+    "learning",
+    "python",
+    {
+        "task": "Learn python APi"
+    },
+    {
+        "task": "Learn python APi"
+    }
+]
