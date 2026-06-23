@@ -1,3 +1,4 @@
+# tools as text proccessing tools
 def uppercase(text):
     return text.upper()
 

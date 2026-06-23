@@ -2,7 +2,7 @@ import requests
 
 data = {
     "id": 1,
-    "task": "Update Now"
+    "task": "secound Update Now"
 }
 
 
