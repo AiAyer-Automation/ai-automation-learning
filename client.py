@@ -1,11 +1,10 @@
 import requests
 
 data = {
-    "id": 1,
-    "task": "secound Update Now"
+    "text": "reverse this text"
 }
 
 
-response = requests.post("http://127.0.0.1:5000/tasks/update",json=data)
+response = requests.post("http://127.0.0.1:5000/ai",json=data)
     
-print("raw response:" )
+print(response.json()) 
